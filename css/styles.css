@@ -10,7 +10,7 @@ h1 {
 }
 
 ul {
-  color: red;
+  color: white;
   list-style-position: inside;
 }
 
@@ -19,7 +19,19 @@ p {
 }
 
 body {
-    position: relative;
+    position: 50%;
     background: #C142D0;
-    overflow: hidden;
+}
+
+.flashy {
+  font-style: italic;
+  color: red;
+  background-image: url(../img/cupcake-shoppe.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: 50%;
+}
+
+.best {
+  color: gold;
 }
