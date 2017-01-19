@@ -1,7 +1,25 @@
 html {
   font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+  color: white;
 }
 
 ul {
   color: red;
+  list-style-position: inside;
+}
+
+p {
+  text-align: inherit;
+}
+
+body {
+    position: relative;
+    background: #C142D0;
+    overflow: hidden;
 }
